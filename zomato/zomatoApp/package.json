@@ -1,0 +1,17 @@
+{
+  "name": "zomatoapp",
+  "version": "1.0.0",
+  "description": "finds restaurants",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathaniel Suarez",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^6.2.2",
+    "zomatoapi": "file:../zomatoapi",
+    "superagent": "^4.1.0",
+    "yargs": "^13.2.2"
+  }
+}
